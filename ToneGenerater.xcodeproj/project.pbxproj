@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2BFDF7F1D72B2B40027DF57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFDF7E1D72B2B40027DF57 /* main.m */; };
+		E2BFDF821D72B2B40027DF57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFDF811D72B2B40027DF57 /* AppDelegate.m */; };
+		E2BFDF851D72B2B40027DF57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFDF841D72B2B40027DF57 /* ViewController.m */; };
+		E2BFDF881D72B2B40027DF57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BFDF861D72B2B40027DF57 /* Main.storyboard */; };
+		E2BFDF8A1D72B2B40027DF57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BFDF891D72B2B40027DF57 /* Assets.xcassets */; };
+		E2BFDF8D1D72B2B40027DF57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BFDF8B1D72B2B40027DF57 /* LaunchScreen.storyboard */; };
+		E2BFDF9E1D72B2C80027DF57 /* AudioQueFloatTone.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFDF971D72B2C80027DF57 /* AudioQueFloatTone.m */; };
+		E2BFDF9F1D72B2C80027DF57 /* AudioQueIntegerTone.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFDF991D72B2C80027DF57 /* AudioQueIntegerTone.m */; };
+		E2BFDFA01D72B2C80027DF57 /* AudioUnitFloatTone.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFDF9B1D72B2C80027DF57 /* AudioUnitFloatTone.m */; };
+		E2BFDFA11D72B2C80027DF57 /* AudioUnitIntegerTone.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFDF9D1D72B2C80027DF57 /* AudioUnitIntegerTone.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2BFDF7A1D72B2B40027DF57 /* ToneGenerater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToneGenerater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BFDF7E1D72B2B40027DF57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2BFDF801D72B2B40027DF57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2BFDF811D72B2B40027DF57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2BFDF831D72B2B40027DF57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2BFDF841D72B2B40027DF57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2BFDF871D72B2B40027DF57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2BFDF891D72B2B40027DF57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2BFDF8C1D72B2B40027DF57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2BFDF8E1D72B2B40027DF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BFDF951D72B2C80027DF57 /* AudioConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioConfig.h; sourceTree = "<group>"; };
+		E2BFDF961D72B2C80027DF57 /* AudioQueFloatTone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueFloatTone.h; sourceTree = "<group>"; };
+		E2BFDF971D72B2C80027DF57 /* AudioQueFloatTone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueFloatTone.m; sourceTree = "<group>"; };
+		E2BFDF981D72B2C80027DF57 /* AudioQueIntegerTone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueIntegerTone.h; sourceTree = "<group>"; };
+		E2BFDF991D72B2C80027DF57 /* AudioQueIntegerTone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueIntegerTone.m; sourceTree = "<group>"; };
+		E2BFDF9A1D72B2C80027DF57 /* AudioUnitFloatTone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUnitFloatTone.h; sourceTree = "<group>"; };
+		E2BFDF9B1D72B2C80027DF57 /* AudioUnitFloatTone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioUnitFloatTone.m; sourceTree = "<group>"; };
+		E2BFDF9C1D72B2C80027DF57 /* AudioUnitIntegerTone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUnitIntegerTone.h; sourceTree = "<group>"; };
+		E2BFDF9D1D72B2C80027DF57 /* AudioUnitIntegerTone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioUnitIntegerTone.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2BFDF771D72B2B40027DF57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2BFDF711D72B2B30027DF57 = {
+			isa = PBXGroup;
+			children = (
+				E2BFDF7C1D72B2B40027DF57 /* ToneGenerater */,
+				E2BFDF7B1D72B2B40027DF57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2BFDF7B1D72B2B40027DF57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2BFDF7A1D72B2B40027DF57 /* ToneGenerater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2BFDF7C1D72B2B40027DF57 /* ToneGenerater */ = {
+			isa = PBXGroup;
+			children = (
+				E2BFDF801D72B2B40027DF57 /* AppDelegate.h */,
+				E2BFDF811D72B2B40027DF57 /* AppDelegate.m */,
+				E2BFDF831D72B2B40027DF57 /* ViewController.h */,
+				E2BFDF841D72B2B40027DF57 /* ViewController.m */,
+				E2BFDF861D72B2B40027DF57 /* Main.storyboard */,
+				E2BFDF941D72B2C80027DF57 /* Audio */,
+				E2BFDF891D72B2B40027DF57 /* Assets.xcassets */,
+				E2BFDF8B1D72B2B40027DF57 /* LaunchScreen.storyboard */,
+				E2BFDF8E1D72B2B40027DF57 /* Info.plist */,
+				E2BFDF7D1D72B2B40027DF57 /* Supporting Files */,
+			);
+			path = ToneGenerater;
+			sourceTree = "<group>";
+		};
+		E2BFDF7D1D72B2B40027DF57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2BFDF7E1D72B2B40027DF57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2BFDF941D72B2C80027DF57 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				E2BFDF951D72B2C80027DF57 /* AudioConfig.h */,
+				E2BFDF961D72B2C80027DF57 /* AudioQueFloatTone.h */,
+				E2BFDF971D72B2C80027DF57 /* AudioQueFloatTone.m */,
+				E2BFDF981D72B2C80027DF57 /* AudioQueIntegerTone.h */,
+				E2BFDF991D72B2C80027DF57 /* AudioQueIntegerTone.m */,
+				E2BFDF9A1D72B2C80027DF57 /* AudioUnitFloatTone.h */,
+				E2BFDF9B1D72B2C80027DF57 /* AudioUnitFloatTone.m */,
+				E2BFDF9C1D72B2C80027DF57 /* AudioUnitIntegerTone.h */,
+				E2BFDF9D1D72B2C80027DF57 /* AudioUnitIntegerTone.m */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2BFDF791D72B2B40027DF57 /* ToneGenerater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BFDF911D72B2B40027DF57 /* Build configuration list for PBXNativeTarget "ToneGenerater" */;
+			buildPhases = (
+				E2BFDF761D72B2B40027DF57 /* Sources */,
+				E2BFDF771D72B2B40027DF57 /* Frameworks */,
+				E2BFDF781D72B2B40027DF57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToneGenerater;
+			productName = ToneGenerater;
+			productReference = E2BFDF7A1D72B2B40027DF57 /* ToneGenerater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2BFDF721D72B2B30027DF57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hikaruApp;
+				TargetAttributes = {
+					E2BFDF791D72B2B40027DF57 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E2BFDF751D72B2B30027DF57 /* Build configuration list for PBXProject "ToneGenerater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2BFDF711D72B2B30027DF57;
+			productRefGroup = E2BFDF7B1D72B2B40027DF57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2BFDF791D72B2B40027DF57 /* ToneGenerater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2BFDF781D72B2B40027DF57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BFDF8D1D72B2B40027DF57 /* LaunchScreen.storyboard in Resources */,
+				E2BFDF8A1D72B2B40027DF57 /* Assets.xcassets in Resources */,
+				E2BFDF881D72B2B40027DF57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2BFDF761D72B2B40027DF57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BFDFA11D72B2C80027DF57 /* AudioUnitIntegerTone.m in Sources */,
+				E2BFDF851D72B2B40027DF57 /* ViewController.m in Sources */,
+				E2BFDFA01D72B2C80027DF57 /* AudioUnitFloatTone.m in Sources */,
+				E2BFDF9F1D72B2C80027DF57 /* AudioQueIntegerTone.m in Sources */,
+				E2BFDF821D72B2B40027DF57 /* AppDelegate.m in Sources */,
+				E2BFDF7F1D72B2B40027DF57 /* main.m in Sources */,
+				E2BFDF9E1D72B2C80027DF57 /* AudioQueFloatTone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2BFDF861D72B2B40027DF57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2BFDF871D72B2B40027DF57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2BFDF8B1D72B2B40027DF57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2BFDF8C1D72B2B40027DF57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2BFDF8F1D72B2B40027DF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2BFDF901D72B2B40027DF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2BFDF921D72B2B40027DF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ToneGenerater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hikaruapp.ToneGenerater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E2BFDF931D72B2B40027DF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ToneGenerater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hikaruapp.ToneGenerater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2BFDF751D72B2B30027DF57 /* Build configuration list for PBXProject "ToneGenerater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BFDF8F1D72B2B40027DF57 /* Debug */,
+				E2BFDF901D72B2B40027DF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BFDF911D72B2B40027DF57 /* Build configuration list for PBXNativeTarget "ToneGenerater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BFDF921D72B2B40027DF57 /* Debug */,
+				E2BFDF931D72B2B40027DF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2BFDF721D72B2B30027DF57 /* Project object */;
+}
